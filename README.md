@@ -1,31 +1,4 @@
 # functiontake
 function: take y/ n char input: easily modified for other char input
 #
-char input_char_switch_y_n()
-{
-    char char_input = ' ';
-    do
-    {
-	    cout << endl << "\t\tRepeat program?  Y (Yes) /  N (No) " ;
-        cin >> char_input;
-        switch(char_input)
-	    {
-    		case 'Y':
-    		case 'y':  // allow for both upper and lower case letters
-    			char_input = 'Y';
-    			break;
-    		
-    		case 'N':
-    		case 'n':
-    			char_input = 'N';
-    			break;
-
-          
-            default:   //  no legal option was entered		
-                cout << endl
-                     << " Not a valid choice. " << endl
-    			     << " Choose again." << endl << endl;
-		} 
-    } while(char_input != 'Y' && char_input != 'N' );  // loop until correct input entered
-	return char_input;
-} // end function
+Code in pastebin - - -> https://pastebin.com/raw/3U2ZsmM9
